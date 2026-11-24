@@ -17,5 +17,6 @@ joke until the business logic lands: insurance for your browser history.
 node main.ts
 ```
 
-Writes the entry to `/output/entry.txt` (and `./entry.txt` locally).
+Writes the entry to `$MAKEFUN_OUTPUT_DIR/entry.txt` (`/output/entry.txt`
+on the grader, `./out/entry.txt` locally).
 Deterministic, no network, no dependencies.
